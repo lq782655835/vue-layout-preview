@@ -1,8 +1,8 @@
 {
-  "name": "Vue-Layout",
-  "version": "1.0.2",
-  "description": "vue可视化布局",
-  "author": "jawei <1005945485@qq.com>",
+  "name": "vue-layout-preview",
+  "version": "1.0.0",
+  "description": "vue可视化布局工具",
+  "author": "springleo <782655835@qq.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
