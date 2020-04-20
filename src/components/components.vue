@@ -10,7 +10,7 @@
                 </mu-menu-item>
                 <!-- <mu-menu-item title="Element-UI" value="Element-UI">
                 </mu-menu-item> -->
-                <mu-menu-item title="通用" value="Common">
+                <mu-menu-item title="自定义" value="Common">
                 </mu-menu-item>
             </mu-select-field>
             <mu-sub-header style="white-space:nowrap;">- 组件</mu-sub-header>

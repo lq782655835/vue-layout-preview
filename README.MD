@@ -1,7 +1,7 @@
 
-Vue-Layout
+# vue-layout-preview
 
-基于UI组件的Vue可视化布局、生成.vue代码的工具。
+可视化拖拽预览工具
 
 在线预览：https://lq782655835.github.io/vue-layout-preview
 
