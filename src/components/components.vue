@@ -8,8 +8,8 @@
                 </mu-menu-item>
                 <mu-menu-item title="iView-UI" value="iView-UI">
                 </mu-menu-item>
-                <mu-menu-item title="Element-UI" value="Element-UI">
-                </mu-menu-item>
+                <!-- <mu-menu-item title="Element-UI" value="Element-UI">
+                </mu-menu-item> -->
                 <mu-menu-item title="通用" value="Common">
                 </mu-menu-item>
             </mu-select-field>
@@ -115,10 +115,10 @@
                 <li draggable="true" @dragstart="dragStart" data-name="Card">
                     <card />
                 </li>
-                <!--                 
+                <!--
                 <li draggable="true" @dragstart="dragStart" data-name="Back Top">
                     <backTop/>
-                </li> 
+                </li>
                 -->
             </ul>
         </div>
@@ -217,10 +217,10 @@
         </div>
         <div v-if="activeUI === 'Element-UI'">
             <ul class="components-list">
-                <!--                 
+                <!--
                 <li draggable="true" @dragstart="dragStart" data-name="Header">
                     <mt-header fixed title="Header"></mt-header>
-                </li> 
+                </li>
                 -->
             </ul>
         </div>

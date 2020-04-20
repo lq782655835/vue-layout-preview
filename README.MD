@@ -1,28 +1,7 @@
 
-![banner][1]
-
 Vue-Layout
-==
 
-基于UI组件的Vue可视化布局、生成.vue代码的工具。https://jaweii.github.io/Vue-Layout/dist/  
-
-----------
-
-演示
---
-
-使用
-
-![demo1][2]
-
-效果
-
-
-![demo2][3]
-
-上图的后台布局例子，你可以进入这个页面访问其布局：https://jaweii.github.io/Vue-Layout/dist/#/share/5993d3b05c497d0057c6f2da  
-也可以进入这个页面体验其布局效果：https://jaweii.github.io/Vue-Layout/dist/#/preview/pc/5993d3b05c497d0057c6f2da
-
+基于UI组件的Vue可视化布局、生成.vue代码的工具。
 
 源码结构
 ====
@@ -79,14 +58,3 @@ Vue-Layout
     |   |  ├─theme-dark.css              //Muse-UI的自定义主题（红色风格）
     |   |  ├─highlight                   //代码格式化后的高亮样式
 
- 
-
-
-  [1]: https://raw.githubusercontent.com/jaweii/Vue-Layout/master/static/banner.JPG
-  [2]: https://raw.githubusercontent.com/jaweii/Vue-Layout/master/static/demo1.gif
-  [3]: https://raw.githubusercontent.com/jaweii/Vue-Layout/master/static/demo2.gif
-
-  [4]: https://raw.githubusercontent.com/jaweii/Vue-Layout/master/docs/images/App%20Bar1.png
-  [5]: https://raw.githubusercontent.com/jaweii/Vue-Layout/master/docs/images/Header%201.png
-  [6]: https://raw.githubusercontent.com/jaweii/Vue-Layout/master/docs/images/getTemplte.png
- 
