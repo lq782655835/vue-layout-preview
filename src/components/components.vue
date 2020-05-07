@@ -8,8 +8,8 @@
                 </mu-menu-item>
                 <mu-menu-item title="iView-UI" value="iView-UI">
                 </mu-menu-item>
-                <!-- <mu-menu-item title="Element-UI" value="Element-UI">
-                </mu-menu-item> -->
+                <mu-menu-item title="vuele" value="vuele">
+                </mu-menu-item>
                 <mu-menu-item title="自定义" value="Common">
                 </mu-menu-item>
             </mu-select-field>
@@ -215,13 +215,17 @@
                 </li>
             </ul>
         </div>
-        <div v-if="activeUI === 'Element-UI'">
+        <div v-if="activeUI === 'vuele'">
             <ul class="components-list">
-                <!--
-                <li draggable="true" @dragstart="dragStart" data-name="Header">
-                    <mt-header fixed title="Header"></mt-header>
+                <li draggable="true" @dragstart="dragStart" data-name="DetailHeader">
+                  <DetailHeader />
                 </li>
-                -->
+                <li draggable="true" @dragstart="dragStart" data-name="Process">
+                  <Process />
+                </li>
+                <li draggable="true" @dragstart="dragStart" data-name="OperationLog">
+                  <OperationLog />
+                </li>
             </ul>
         </div>
         <div v-if="activeUI==='Common'">
@@ -249,6 +253,7 @@
 import museUiList from './list/muse-ui'
 import mintUiList from './list/mint-ui'
 import iViewUiList from './list/iview-ui'
+import VueleList from './list/vuele'
 export default {
     name: 'components',
     data() {
@@ -297,7 +302,8 @@ export default {
     components: {
         ...museUiList,
         ...mintUiList,
-        ...iViewUiList
+        ...iViewUiList,
+        ...VueleList
     }
 }
 </script>

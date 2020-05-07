@@ -21,6 +21,13 @@ import MuseUI from 'muse-ui'
 import 'muse-ui/dist/muse-ui.css'
 Vue.use(MuseUI)
 
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI)
+import vuele from 'vuele';
+import 'vuele/dist/vuele.css';
+Vue.use(vuele)
+
 //为代码文本提供高亮、缩进
 import VueHighlightJS from 'vue-highlightjs'
 Vue.use(VueHighlightJS)
